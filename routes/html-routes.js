@@ -16,7 +16,7 @@ module.exports = function (app) {
   });
 
   // PLAYER - HOMEPAGE ONCE LOGGED IN
-  app.get("/", (req, res) => {
+  app.get("/player", (req, res) => {
     res.render("player", {
       main: "main.css",
       style: "player.css",
